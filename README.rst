@@ -18,6 +18,11 @@ healthyhouse-api
 
 A wrapper of the rest API available for ha healthyhouse installation
 
+This software is can be easily installed from pypi using
+.. code-block:: bash
+
+   $ pip install healthyhouse_api
+
 
 * Free software: MIT license
 * Documentation: https://healthyhouse-api.readthedocs.io.
@@ -31,7 +36,3 @@ Features
 Credits
 -------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
