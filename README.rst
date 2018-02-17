@@ -19,7 +19,6 @@ healthyhouse-api
 A wrapper of the rest API available for ha healthyhouse installation
 
 This software is can be easily installed from pypi using
-.. code-block:: bash
 
    $ pip install healthyhouse_api
 
