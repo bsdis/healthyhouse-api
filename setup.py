@@ -12,8 +12,9 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    'Click>=6.0',
-    # TODO: Put package requirements here
+    'requests',
+    'marshmallow',
+    'pandas'
 ]
 
 setup_requirements = [
@@ -37,7 +38,7 @@ setup(
     packages=find_packages(include=['healthyhouse_api']),
     entry_points={
         'console_scripts': [
-            'healthyhouse_api=healthyhouse_api.cli:main',
+            'hh_importresults=healthyhouse_api.import_results:main',
         ],
     },
     include_package_data=True,
