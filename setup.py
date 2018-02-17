@@ -39,6 +39,7 @@ setup(
     entry_points={
         'console_scripts': [
             'hh_importresults=healthyhouse_api.import_results:main',
+            'hh_importorders=healthyhouse_api.import_orders:main',
         ],
     },
     include_package_data=True,
