@@ -29,7 +29,7 @@ test_requirements = [
 
 setup(
     name='healthyhouse_api',
-    version='0.2.0',
+    version='0.3.0',
     description="A wrapper of the RESTful API service available for a healthyhouse installation",
     long_description=readme + '\n\n' + history,
     author="Healthyhouse",
